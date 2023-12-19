@@ -49,6 +49,7 @@
                             transform: rotate(90deg);
                         }
                     }
+
                     a {
                         display: flex;
                         align-items: center;
@@ -62,13 +63,13 @@
                             width: 95%;
 
                             h3 {
-                            text-align: center;
-                            width: 90%;
-                            color: #323232;
-                            font-family: Roboto;
-                            font-size: 24px;
-                            font-weight: 700;
-                            margin: 0;
+                                text-align: center;
+                                width: 90%;
+                                color: #323232;
+                                font-family: Roboto;
+                                font-size: 24px;
+                                font-weight: 700;
+                                margin: 0;
                             }
                         }
                     }
@@ -101,6 +102,27 @@
                             font-weight: 500;
                         }
                     }
+                }
+            }
+
+            .dis-tab-content-btn {
+                text-align: center;
+                padding: 25px 0;
+
+                a {
+                    color: #E6E9F5;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    padding: 15px 25%;
+                    margin: 0;
+                    background: #7BA631;
+                    border-radius: 4px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    -ms-border-radius: 4px;
+                    -o-border-radius: 4px;
                 }
             }
         }
