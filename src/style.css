@@ -33,14 +33,25 @@
 .dis-tab-sec .dis-tab-content-wrapper .panel-group .panel-heading h4 a[aria-expanded=true] .glyphicon {
   transform: rotate(90deg);
 }
+.dis-tab-sec .dis-tab-content-wrapper .panel-group .panel-heading h4 a {
+  display: flex;
+  align-items: center;
+}
 .dis-tab-sec .dis-tab-content-wrapper .panel-group .panel-heading h4 a .dis-panel-title-icon {
+  width: 5%;
   margin-right: 5px;
 }
 .dis-tab-sec .dis-tab-content-wrapper .panel-group .panel-heading h4 a .dis-panel-title-text {
+  width: 95%;
+}
+.dis-tab-sec .dis-tab-content-wrapper .panel-group .panel-heading h4 a .dis-panel-title-text h3 {
+  text-align: center;
+  width: 90%;
   color: #323232;
   font-family: Roboto;
   font-size: 24px;
   font-weight: 700;
+  margin: 0;
 }
 .dis-tab-sec .dis-tab-content-wrapper .panel-group .dis-tab-content-panel-body ul {
   margin: 0;
