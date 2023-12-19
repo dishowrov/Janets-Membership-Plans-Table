@@ -2,4 +2,19 @@
   padding: 0;
   margin: 0;
   outline: 0;
+}
+
+.dis-tab-sec .dis-tab-nav-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.dis-tab-sec .dis-tab-nav-wrapper .dis-tab-nav {
+  background: #FAFFF1;
+  border-radius: 28px;
+  height: 46px;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
